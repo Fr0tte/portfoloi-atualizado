@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    background-color: black;
+}
+
+.header-transparente {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 15px 0;
+    transition: background-color 0.5s ease;
+}
+
+.header-transparente nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header-transparente nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.header-transparente {
+    transition: all 0.3s ease;
+
+}
+
+.header-transparente .scrolled {
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+section {
+    display: inline-block;
+    color: white;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+
+section p {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+section h1 {
+    font-size: 50px;
+    width: 600px;
+}
+
+span {
+    color: #FFD700;
+    font-style: italic;
+}
+
+.minha-imagem {
+    display: inline-block;
+    margin-left: 40%;
+
+}
+
+
+.sobre-mim {
+    color: white;
+    margin-left: 100px;
+    margin-top: 200px;
+    display: inline-block;
+}
+
+.sobre-mim h1 {
+
+    font-size: 100px;
+    margin-bottom: 150px;
+}
+
+.sobre-mim p {
+    margin-left: 100px;
+    width: 900px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+
+}
+
+.redes-sociais {
+    display: inline-block;
+    margin-left: 100px;
+    border-radius: 10px;
+    border: none;
+    border-color: rgb(0, 0, 0);
+    background-color: rgba(126, 126, 126, 0.267);
+    backdrop-filter: blur(10px);
+    z-index: 500;
+    position: fixed;
+    right: 2%;
+    bottom: 4%;
+
+}
+
+.minhas-competencias {
+    text-align: end;
+
+}
+
+
+.minhas-competencias div {
+    background-color: white;
+    margin-left: 67%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    margin-bottom: 140px;
+}
+
+.minhas-competencias lu {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.meus-projetos {
+    margin-left: 100px;
+    color: white;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 110px;
+
+}
+
+.meus-projetos p {
+    width: 500px;
+
+
+}
+
+
+.imagem-Projetos {
+    width: 500px;
+    border-radius: 10px;
+
+}
+
+@media screen and (max-width: 576px) {
+
+
+    header {
+        display: none;
+    }
+
+    section {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+    }
+
+    section h1 {
+        width: auto;
+
+    }
+
+    .minha-imagem {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+
+    .sobre-mim {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+
+    }
+
+
+    .sobre-mim p {
+        width: auto;
+        margin-left: auto;
+    }
+
+    .minhas-competencias {
+
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .minhas-competencias div {
+        margin-left: auto;
+        margin-right: auto;
+        background: none;
+        color: white;
+        text-align: center;
+
+    }
+
+    .minhas-competencia h2 {
+
+        text-align: center;
+    }
+
+
+
+    .minhas-competencias lu {
+        text-align: center;
+    }
+
+    .redes-sociais {
+        left: 32px;
+        right: auto;
+        position: fixed;
+        bottom: 2px;
+
+
+
+    }
+
+
+    .meus-projetos {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+    .meus-projetos p {
+        width: auto;
+
+    }
+
+    .imagem-Projetos {
+        width: 430px;
+
+
+    }
+
+
+
+
+
+
+}
